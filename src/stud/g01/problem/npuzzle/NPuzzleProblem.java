@@ -17,7 +17,7 @@ public class NPuzzleProblem extends Problem {
     }
 
     @Override
-    
+    //如果8数码游戏输入状态中逆序对的数量是奇数，则无法解决问题实例。
     public boolean solvable() {
         return false;
     }
