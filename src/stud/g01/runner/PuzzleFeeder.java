@@ -18,7 +18,7 @@ public class PuzzleFeeder extends EngineFeeder {
     public ArrayList<Problem> getProblems(ArrayList<String> problemLines) {
         //问题规模, 输入的第一行
 
-        /* 读入各个问题 */
+        /* 读入各个问题
         ArrayList<Problem> problems = new ArrayList<>();
         int lineNo = 0;
         while (lineNo < 6){
@@ -30,6 +30,7 @@ public class PuzzleFeeder extends EngineFeeder {
             problems.add(problem);
             lineNo++;
         } //读入问题结束
+            */
 
         return problems;
 
